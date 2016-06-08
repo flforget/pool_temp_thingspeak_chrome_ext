@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "Piscine MIROUSE",
+  "description": "Et elle est comment la baignade chez mirouse??",
+  "version": "0.1",
+  "browser_action": {
+    "default_popup": "thingspeak.html"
+  },
+ "icons": {"48": "pool48.png",
+          "128": "pool128.png" },
+  "permissions": [
+    "storage",
+    "<all_urls>",
+    "http://*/",
+    "activeTab",
+    "tabs"
+  ]
+}
